@@ -10,7 +10,7 @@
     <title>Number Guessing</title>  
     <style>  
       body {  
-        background-color: #f8f9fa;  
+        background-color: #8c99b6;  
       }  
       .game-container {  
         margin: 50px auto;  
@@ -20,12 +20,17 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
       }  
       h1 {  
-        color: #343a40;  
+        color: #0c4277;  
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 400;
       }  
       #msg {  
         margin-top: 20px;  
         font-size: 1.2em;  
       }  
+      #imgBox {
+        margin: 20px auto;
+      }
     </style>  
   </head>  
   <body>  
@@ -39,6 +44,8 @@
         <button class="btn btn-danger" onclick="guess()" id="guess">Guess</button>  
         <p id="chances" class="mt-3"></p>  
         <div id="msg" class="text-success"></div>  
+
+        <div id="imgBox"><img src="https://cdn.pixabay.com/animation/2022/11/03/14/35/14-35-43-441_512.gif" alt=""></div>
       </center>  
     </div>  
     <script src="app.js"></script>  
